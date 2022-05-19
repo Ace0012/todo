@@ -1,0 +1,81 @@
+.todo{
+    display: flex;
+/* border-bottom: 1px solid rgb(100, 100, 100); */
+font-size: 22px;
+text-align: center;
+/* align-items: center; */
+justify-content: space-between;
+}
+.input{
+    border: 2px solid salmon;
+    margin-top: 5%;
+    
+
+}
+.todoList{
+    /* display: flex; */
+    /* margin-top: 3%; */
+    
+    /* justify-content: space-between; */
+    width: 85%;
+    margin-left: 8%;
+    border-radius: 10px;
+    background: white;
+    /* border: 1px solid rgb(209, 123, 123); */
+    /* gap: 100px; */
+    font-size: 29px;
+    margin-bottom: 20px;
+    
+}
+.striked{
+    text-decoration: line-through;
+    color: rgb(211, 170, 170);
+
+}
+
+
+.container{
+    display:inline-block;
+    /* border: 1px solid #000; */
+    margin-top: 2%;
+    width: 50%;
+    align-items:center;
+    background: lightgray;
+}
+.Button{
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    align-items: center;
+    width:45px;
+    height: 50px;
+
+    background: rgb(164, 229, 164);
+text-align: center;
+
+
+}
+.btn2{
+    height: 45px;
+    width: 40px;
+    font-size: 29px;
+    margin-left: 2%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+
+    text-align: center;
+
+}
+.input2{
+    height: 40px;
+    width: 70%;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
